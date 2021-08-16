@@ -27,8 +27,10 @@ body {
 
   }
 
-  #techno {
+   /* 1) VEDa Cafe */
 
+  #veda {
+    
     width: 32%;
     height: 94%;
     margin: 15px;
@@ -39,27 +41,18 @@ body {
     border-radius: 10px; */
     box-shadow: 6px 6px 12px 1px gray;
     transition: ease-out 0.4s;
-
   }
 
-  #techno:hover{
-    width: 34%;
-    height: 98%;
+  #imm1{
+    height: 45%;
+    width: 50%;
+    background-image: url(cof.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  #veda {
-    
-    width: 32%;
-    height: 94%;
-    margin: 15px;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-color: rgb(253, 245, 201);
-    box-shadow: 6px 6px 12px 1px gray;
-    transition: ease-out 0.5s;
-  /*  border: 3px solid rgb(15, 12, 12);
-    border-radius: 10px;  */
-  }
 
   #veda:hover{
     
@@ -72,69 +65,139 @@ body {
   #veda:hover{
     transform: translateY(10px);
   }
-*/
-  #veda1 {
+        */
+          #veda1 {
 
-    width: 100%;
-    height: 30%;
-    background-color:transparent;
-    border-top-left-radius : 10px;
-    border-top-right-radius: 10px;
+            width: 100%;
+            height: 30%;
+            background-color:transparent;
+            border-top-left-radius : 10px;
+            border-top-right-radius: 10px;
 
-  }
-  #veda1 h1{
-    
-    text-align: center;
-    font-size: 45px;
-    color: rgb(132, 19, 177);
-    font-family:Arial, Helvetica, sans-serif;
-    font-style: italic;
-  }
+          }
+          #veda1 h1{
+            
+            text-align: center;
+            font-size: 45px;
+            color: rgb(132, 19, 177);
+            margin-right: auto;
+            margin-left: auto;
+            font-family:Arial, Helvetica, sans-serif;
+            font-style: italic;
+          }
 
-  #wsite{
-    width: 50%;
-    height: 30%;
-    background-color: transparent;
-    border: 3px solid rgb(0, 0, 0);
-    margin: auto;
-    border-radius: 20px;
-    transition: ease-out 1s;
-  }
+          #wsite{
+            width: 50%;
+            height: 30%;
+            background-color: transparent;
+            border: 3px solid rgb(0, 0, 0);
+            margin: auto;
+            border-radius: 20px;
+            transition: ease-out 1s;
+          }
 
-  #wsite:hover{
-    box-shadow: inset 300px 0 0 0 rgb(255, 0, 0);
-    font-style:bold;
-    color: rgb(255, 255, 255);
+          #wsite:hover{
+            box-shadow: inset 300px 0 0 0 rgb(255, 0, 0);
+            font-style:bold;
+            color: rgb(255, 255, 255);
 
-  }
+          }
 
-  #wsite a{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-  }
+          #wsite a{
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+          }
 
-  #wsite a:hover{
-    color: rgb(249, 250, 242);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: inherit;
-  }
+          #wsite a:hover{
+            color: rgb(249, 250, 242);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: inherit;
+          }
 
-  #veda2 {
-    width: 100%;
-    height: 70%;
-    background-color: rgba(136, 201, 255, 0.658);  
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+          #veda2 {
+            width: 100%;
+            height: 70%;
+            background-color: rgba(136, 201, 255, 0.658);  
+            border-top-right-radius: 100px;
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+            transition: ease-out 0.4s;
+          }
+
+          #veda2:hover{
+
+            background-color: rgba(0, 0, 0, 0.979);  
+            color: rgb(246, 253, 253);
+
+          }
+
+
+  
+   /* 2) TECHNO-SOFT */
+
+   #techno {
+
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(253, 245, 201);
+    box-shadow: 6px 6px 12px 1px gray;
     transition: ease-out 0.4s;
-  }
-
-  #veda2:hover{
-
-    background-color: rgba(0, 0, 0, 0.979);  
-    color: rgb(246, 253, 253);
 
   }
+
+  
+  #imm2{
+    height: 45%;
+    width: 50%;
+    background-image: url(momo.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #techno:hover{
+    width: 34%;
+    height: 98%;
+  }
+
+  
+
+  /* 3) MAHAK */
+
+  #mahak {
+    
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(253, 245, 201);
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+
+  }
+
+  #imm3{
+    height: 45%;
+    width: 50%;
+    background-image: url(pbm.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #mahak:hover{
+    width: 34%;
+    height: 98%;
+  }
+
+  /* 4) PAHAN */
+
 
   #pahan {
     
@@ -151,78 +214,21 @@ body {
 
   }
 
+  #imm4{
+    height: 45%;
+    width: 50%;
+    background-image: url(phn.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #pahan:hover{
-
     width: 34%;
     height: 98%;
-  
-
   }
 
-  #mahak {
-    
-    width: 32%;
-    height: 94%;
-    margin: 15px;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-color: rgb(253, 245, 201);
-    box-shadow: 6px 6px 12px 1px gray;
-    transition: ease-out 0.5s;
-   /* border: 3px solid rgb(15, 12, 12);
-    border-radius: 10px;  */
-
-  }
-
-  #mahak:hover{
-    width: 34%;
-    height: 98%;
-  
-
-  }
-/*
-  #veda{
-
-    width: 32%;
-    height: 94%;
-    padding: 5%;
-    margin: 15px;
-    margin-top: auto;
-    margin-bottom: auto; 
-    background-color: rgb(255, 0, 0);
-    border: 3px solid rgb(15, 12, 12);
-    border-radius: 10px;
-  }
-
-  #pahan {
-
-    width: 32%;
-    height: 94%;
-    padding: 5%;
-    margin: 15px;
-    margin-top: auto;
-    margin-bottom: auto; 
-    background-color: rgb(255, 0, 0);
-    border: 3px solid rgb(15, 12, 12);
-    border-radius: 10px;
-
-  }
-
-  #mahak{
-    
-    width: 32%;
-    height: 94%;
-    padding: 5%;
-    margin: 15px;
-    margin-top: auto;
-    margin-bottom: auto; 
-    background-color: rgb(113, 252, 217);
-    border: 3px solid rgb(15, 12, 12);
-    border-radius: 10px;
-
-  }
-
-  */
 
   .block2{
 
@@ -241,60 +247,8 @@ body {
 
   }
 
-  #Chotu{
-    
-    width: 32%;
-    height: 94%;
-    margin: 15px;
-    margin-top: auto;
-    margin-bottom: auto;    
-    background-color: rgb(253, 245, 201);
-    box-shadow: 6px 6px 12px 1px gray;
-   /* border: 3px solid rgb(15, 12, 12);
-    border-radius: 10px; */
-    transition: ease-out 0.5s;
-  }
-
-  #Chotu:hover{ 
-    width: 34%;
-    height: 96%;
-  }
-
-  #Laxmi{  
-    width: 32%;
-    height: 94%;
-    margin: 15px;
-    margin-top: auto;
-    margin-bottom: auto; 
-    background-color: rgb(253, 245, 201);
-   /* border: 3px solid rgb(15, 12, 12);
-    border-radius: 10px; */
-    box-shadow: 6px 6px 12px 1px gray;
-    transition: ease-out 0.5s;
-  }
-
-  #Laxmi:hover{   
-    width: 34%;
-    height: 96%;
-  }
-
-  #FoodCluster{ 
-    width: 32%;
-    height: 94%;
-    margin: 15px;
-    margin-top: auto;
-    margin-bottom: auto; 
-    background-color: rgb(253, 245, 201);
-    /*border: 3px solid rgb(15, 12, 12);
-    border-radius: 10px;*/
-    box-shadow: 6px 6px 12px 1px gray;
-    transition: ease-out 0.5s;
-  }
-
-  #FoodCluster:hover{  
-    width: 34%;
-    height: 96%;
-  }
+  
+  /* 5) HOT AND COLD */
 
   #HnC{   
     width: 32%;
@@ -309,97 +263,203 @@ body {
     transition: ease-out 0.5s;
   }
 
+  #imm5{
+    height: 45%;
+    width: 50%;
+    background-image: url(hunc.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #HnC:hover{
     width: 34%;
     height: 96%;
   }
 
-  #statt{
-    height: 20%;
-    background-image: url(closd.png);
-    /*background-color: aqua;*/
+  /* 6) FOOD CLUSTER */
+
+  #FoodCluster{ 
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color: rgb(253, 245, 201);
+    /*border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;*/
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+  }
+
+  #imm6{
+    height: 45%;
+    width: 50%;
+    background-image: url(fluster.png);
     background-size: cover;
     background-position: center;
-    width:50%;
     margin-left: auto;
     margin-right: auto;
   }
+
+  #FoodCluster:hover{  
+    width: 34%;
+    height: 96%;
+  }
+
+  /* 7) CHOTU DHABA */
+
+  #Chotu{
+    
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;    
+    background-color: rgb(253, 245, 201);
+    box-shadow: 6px 6px 12px 1px gray;
+   /* border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px; */
+    transition: ease-out 0.5s;
+  }
+
+  #imm7{
+    height: 45%;
+    width: 50%;
+    background-image: url(FDD.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Chotu:hover{ 
+    width: 34%;
+    height: 96%;
+  }
+
+  /* 8)  LAXMI CANTEEN */
+
+
+  #Laxmi{  
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color: rgb(253, 245, 201);
+   /* border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px; */
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+  }
+
+  #imm8{
+    height: 45%;
+    width: 50%;
+    background-image: url(FDD.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #Laxmi:hover{   
+    width: 34%;
+    height: 96%;
+  }
+
 
   
-  #statt2{
-    height: 20%;
-    background-image: url(closd.png);
-    /*background-color: aqua;*/
-    background-size: cover;
-    background-position: center;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #statt3{
-    height: 20%;
-    background-image: url(closd.png);
-    /*background-color: aqua;*/
-    background-size: cover;
-    background-position: center;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  #statt4{
-    
-    height: 20%;
-    background-image: url(closd.png);
-    /*background-color: aqua;*/
-    background-size: cover;
-    background-position: center;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+                                                          /* ---------------STATUS------------------------- */
+        #statt{
+          height: 20%;
+          background-image: url(closd.png);
+          /*background-color: aqua;*/
+          background-size: cover;
+          background-position: center;
+          width:50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-  #statt5{
-    height: 20%;
-    background-image: url(closd.png);
-    /*background-color: aqua;*/
-    background-size: cover;
-    background-position: center;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #statt6{
-    height: 20%;
-    background-image: url(closd.png);
-    /*background-color: aqua;*/
-    background-size: cover;
-    background-position: center;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #statt7{
-    height: 20%;
-    background-image: url(closd.png);
-    /*background-color: aqua;*/
-    background-size: cover;
-    background-position: center;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+        
+        #statt2{
+          height: 20%;
+          background-image: url(closd.png);
+          /*background-color: aqua;*/
+          background-size: cover;
+          background-position: center;
+          width:50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        #statt3{
+          height: 20%;
+          background-image: url(closd.png);
+          /*background-color: aqua;*/
+          background-size: cover;
+          background-position: center;
+          width:50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-  #statt8{
-    height: 20%;
-    background-image: url(closd.png);
-    /*background-color: aqua;*/
-    background-size: cover;
-    background-position: center;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+        #statt4{
+          
+          height: 20%;
+          background-image: url(closd.png);
+          /*background-color: aqua;*/
+          background-size: cover;
+          background-position: center;
+          width:50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        #statt5{
+          height: 20%;
+          background-image: url(closd.png);
+          /*background-color: aqua;*/
+          background-size: cover;
+          background-position: center;
+          width:50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        #statt6{
+          height: 20%;
+          background-image: url(closd.png);
+          /*background-color: aqua;*/
+          background-size: cover;
+          background-position: center;
+          width:50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        #statt7{
+          height: 20%;
+          background-image: url(closd.png);
+          /*background-color: aqua;*/
+          background-size: cover;
+          background-position: center;
+          width:50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        #statt8{
+          height: 20%;
+          background-image: url(closd.png);
+          /*background-color: aqua;*/
+          background-size: cover;
+          background-position: center;
+          width:50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
   .foot{
     width: 99%;
