@@ -1,0 +1,425 @@
+body {
+    height: 100%;
+    background:fixed;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f9dafdd7;
+    background-size: cover;
+    background-position: center;
+   
+  }
+
+  .block1{
+
+    width: 96%;
+    height: 420px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    position: relative;
+    display: flex;
+    /* border: 3px solid rgb(197, 255, 255); */
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-bottom: auto;
+
+  }
+
+  #techno {
+
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(253, 245, 201);
+    /*border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px; */
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.4s;
+
+  }
+
+  #techno:hover{
+    width: 34%;
+    height: 98%;
+  }
+
+  #veda {
+    
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(253, 245, 201);
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+  /*  border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;  */
+  }
+
+  #veda:hover{
+    
+    width: 34%;
+    height: 96%;
+
+  }
+
+/*
+  #veda:hover{
+    transform: translateY(10px);
+  }
+*/
+  #veda1 {
+
+    width: 100%;
+    height: 30%;
+    background-color:transparent;
+    border-top-left-radius : 10px;
+    border-top-right-radius: 10px;
+
+  }
+  #veda1 h1{
+    
+    text-align: center;
+    font-size: 45px;
+    color: rgb(132, 19, 177);
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+
+  #wsite{
+    width: 50%;
+    height: 30%;
+    background-color: transparent;
+    border: 3px solid rgb(0, 0, 0);
+    margin: auto;
+    border-radius: 20px;
+    transition: ease-out 1s;
+  }
+
+  #wsite:hover{
+    box-shadow: inset 300px 0 0 0 rgb(255, 0, 0);
+    font-style:bold;
+    color: rgb(255, 255, 255);
+
+  }
+
+  #wsite a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  #wsite a:hover{
+    color: rgb(249, 250, 242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+  }
+
+  #veda2 {
+    width: 100%;
+    height: 70%;
+    background-color: rgba(136, 201, 255, 0.658);  
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    transition: ease-out 0.4s;
+  }
+
+  #veda2:hover{
+
+    background-color: rgba(0, 0, 0, 0.979);  
+    color: rgb(246, 253, 253);
+
+  }
+
+  #pahan {
+    
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(253, 245, 201);
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+   /* border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;*/
+
+  }
+
+  #pahan:hover{
+
+    width: 34%;
+    height: 98%;
+  
+
+  }
+
+  #mahak {
+    
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(253, 245, 201);
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+   /* border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;  */
+
+  }
+
+  #mahak:hover{
+    width: 34%;
+    height: 98%;
+  
+
+  }
+/*
+  #veda{
+
+    width: 32%;
+    height: 94%;
+    padding: 5%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color: rgb(255, 0, 0);
+    border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;
+  }
+
+  #pahan {
+
+    width: 32%;
+    height: 94%;
+    padding: 5%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color: rgb(255, 0, 0);
+    border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;
+
+  }
+
+  #mahak{
+    
+    width: 32%;
+    height: 94%;
+    padding: 5%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color: rgb(113, 252, 217);
+    border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;
+
+  }
+
+  */
+
+  .block2{
+
+    width: 96%;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    position: relative;
+    display: flex;
+    margin-top: 1px;
+    /* border: 3px solid rgb(197, 255, 255); */
+    border-radius: 20px;
+    justify-content: space-between;
+    
+
+  }
+
+  #Chotu{
+    
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto;    
+    background-color: rgb(253, 245, 201);
+    box-shadow: 6px 6px 12px 1px gray;
+   /* border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px; */
+    transition: ease-out 0.5s;
+  }
+
+  #Chotu:hover{ 
+    width: 34%;
+    height: 96%;
+  }
+
+  #Laxmi{  
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color: rgb(253, 245, 201);
+   /* border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px; */
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+  }
+
+  #Laxmi:hover{   
+    width: 34%;
+    height: 96%;
+  }
+
+  #FoodCluster{ 
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color: rgb(253, 245, 201);
+    /*border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;*/
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+  }
+
+  #FoodCluster:hover{  
+    width: 34%;
+    height: 96%;
+  }
+
+  #HnC{   
+    width: 32%;
+    height: 94%;
+    margin: 15px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    background-color: rgb(253, 245, 201);
+    /*border: 3px solid rgb(15, 12, 12);
+    border-radius: 10px;*/
+    box-shadow: 6px 6px 12px 1px gray;
+    transition: ease-out 0.5s;
+  }
+
+  #HnC:hover{
+    width: 34%;
+    height: 96%;
+  }
+
+  #statt{
+    height: 20%;
+    background-image: url(closd.png);
+    /*background-color: aqua;*/
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  #statt2{
+    height: 20%;
+    background-image: url(closd.png);
+    /*background-color: aqua;*/
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #statt3{
+    height: 20%;
+    background-image: url(closd.png);
+    /*background-color: aqua;*/
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #statt4{
+    
+    height: 20%;
+    background-image: url(closd.png);
+    /*background-color: aqua;*/
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #statt5{
+    height: 20%;
+    background-image: url(closd.png);
+    /*background-color: aqua;*/
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #statt6{
+    height: 20%;
+    background-image: url(closd.png);
+    /*background-color: aqua;*/
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #statt7{
+    height: 20%;
+    background-image: url(closd.png);
+    /*background-color: aqua;*/
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #statt8{
+    height: 20%;
+    background-image: url(closd.png);
+    /*background-color: aqua;*/
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .foot{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    height: 50px;
+    background-color: rgb(82, 76, 75);
+  }
+  
+  .foot h1{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(250, 229, 211);
+  }
+
+  #predi h2 {
+    text-align: center;
+  }
+
+  #imm{
+    text-align: center;
+  }

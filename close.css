@@ -1,0 +1,46 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       
+       html,
+      body {
+        height: 100%;
+        background:fixed;
+        margin: 0;
+        padding: 0;
+        
+        background-color: #dcf5c4;
+        background-size: cover;
+        background-position: center;
+
+        
+      }
+
+      .hd{
+        margin-left: 20px;
+        text-align: center;
+      }
+
+      .hd h1{
+        color: rgb(51, 4, 161);    
+        
+        font-size: 40px;
+      }
+       
+       #map {
+        height: 78%;
+        margin-top: 10px;
+        margin: auto;
+        width: 80%;
+        border-color: rgb(110, 6, 151); 
+      
+      }
+
+      #clock{
+        width: 100%;
+        position: absolute;
+        margin-top: 1px;
+        font-size: 50px;
+        color: rgb(89, 3, 129);
+        text-align: center;
+      }
+      
