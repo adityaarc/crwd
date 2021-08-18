@@ -19,7 +19,7 @@ body {
     margin-right: auto;
     background: transparent;
     position: relative;
-    display: flex;
+    display:flex;
     /* border: 3px solid rgb(197, 255, 255); */
     border-radius: 20px;
     justify-content: space-between;
@@ -86,7 +86,7 @@ body {
           #veda1 h1{
                 
             text-align: center;
-            font-size: 2.5vw;
+          /*  font-size: 2.5vw;  */
             color: rgb(132, 19, 177);
             margin-right: auto;
             margin-left: auto;
@@ -139,7 +139,7 @@ body {
         transition: ease-out 0.4s;
       
       }
-
+/*
       #best h2{
         font-size: 1.5vw;
       }
@@ -147,6 +147,8 @@ body {
       #predi h2{
         font-size: 2vw;
       }
+
+      */
 
       #veda2:hover{
 
@@ -516,4 +518,198 @@ body {
 
   #imm{
     text-align: center;
+  }
+
+
+
+  @media (max-width: 1400px)
+   {
+
+
+    .block1 {
+      flex-direction: column;
+      padding: 10px;
+      margin-top: 10px;
+      width: 90%;
+      height: auto;
+      align-content: center;
+      align-items: center;
+    }
+
+    
+    #veda {
+
+      
+      height: 400px;
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: auto;
+      transition: ease-out 0.4s;
+
+    }
+
+
+    #veda:hover{
+    
+      width: 83%;
+      height: 410px;
+  
+    }
+
+    #techno{
+
+      
+      height: 400px;
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: auto;
+      transition: ease-out 0.4s;
+
+
+    }
+
+    #techno:hover{
+    
+      width: 83%;
+      height: 410px;
+  
+    }
+
+    #mahak {
+
+      
+      height: 400px;
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: auto;
+      transition: ease-out 0.4s;
+
+
+    }
+
+    #mahak:hover{
+    
+      width: 83%;
+      height: 410px;
+  
+    }
+
+    #pahan {
+
+      
+      height: 400px;
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: auto;
+      transition: ease-out 0.4s;
+
+
+    }
+
+    #pahan:hover{
+    
+      width: 83%;
+      height: 410px;
+  
+    }
+
+    .block2{
+      flex-direction: column;
+      padding: 10px;
+      width: 90%;
+      align-content: center;
+      align-items: center;
+      height: auto;
+    }
+
+    #Chotu{
+
+      
+      height: 400px;
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: auto;
+      transition: ease-out 0.4s;
+
+
+    }
+
+    #Chotu:hover{
+    
+      width: 83%;
+      height: 410px;
+  
+    }
+
+    #Laxmi{
+
+      
+      height: 400px;
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: auto;
+      transition: ease-out 0.4s;
+
+
+    }
+
+    #Laxmi:hover{
+    
+      width: 83%;
+      height: 410px;
+  
+    }
+
+    #wsite{
+      padding-top: auto;
+      padding-bottom: auto;
+      
+    }
+
+    #FoodCluster{
+
+      height: 400px;
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: auto;
+      transition: ease-out 0.4s;
+
+    }
+
+    #FoodCluster:hover{
+    
+      width: 83%;
+      height: 410px;
+  
+    }
+
+    #HnC {
+
+      height: 400px;
+      width: 80%;
+      margin-bottom: 10px;
+      margin-top: auto;
+      transition: ease-out 0.4s;
+
+    }
+
+    #HnC:hover{
+    
+      width: 83%;
+      height: 410px;
+  
+    }
+
+    #predi h2{
+      font-size: large;
+    }
+
+    #best h2{
+      font-size: large;
+    }
+
+    #naam{
+      font-size:larger;
+    }
+    
   }
