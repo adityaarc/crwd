@@ -33,6 +33,7 @@ body{
 .menulist ul li:hover{
         background: yellowgreen;
         border-radius: 4px;
+        transition: background-color 0.5s ease,color 0.5s ease;
 
     }
 .submenu1{
@@ -75,4 +76,14 @@ table, th, td {
 th {
     background-color: black;
     color: white;
+  }
+.submenu2{
+      display: none;
+      position: absolute;
+      margin-top: -35px;
+      margin-left: 105px;
+      background: rgb(0, 100, 0);
+  }
+  .Submenu2:hover>.submenu2{
+      display: block;
   }
